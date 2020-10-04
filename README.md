@@ -1,5 +1,5 @@
 # django-demo
-A small demo app made with Django
+A small blog demo app made with Django
 
 ## Installation
 
