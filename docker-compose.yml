@@ -4,7 +4,10 @@ services:
     build: ./app
     ports:
         - 8000:8000
+        - 587:587
     volumes:
         - /${APP_VOLUME}:/app
     environment: 
         - DEBUG
+        - EMAIL_USER
+        - EMAIL_PASSWORD

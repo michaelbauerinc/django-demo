@@ -7,4 +7,6 @@ RUN sh ./utils/install-python-pip.sh
 RUN python ./utils/create_db.py
 RUN sh ./utils/create-admin-user.sh
 EXPOSE 8000
+# Email Port
+EXPOSE 587
 CMD ["sh", "start.sh"]
